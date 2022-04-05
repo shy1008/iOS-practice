@@ -16,6 +16,7 @@
 		79BA5BB627FAE465004886AB /* LEDBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA5BB527FAE465004886AB /* LEDBoardTests.swift */; };
 		79BA5BC027FAE465004886AB /* LEDBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA5BBF27FAE465004886AB /* LEDBoardUITests.swift */; };
 		79BA5BC227FAE465004886AB /* LEDBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA5BC127FAE465004886AB /* LEDBoardUITestsLaunchTests.swift */; };
+		79D5851827FC18D900E0372D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D5851727FC18D900E0372D /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		79BA5BBB27FAE465004886AB /* LEDBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BA5BBF27FAE465004886AB /* LEDBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardUITests.swift; sourceTree = "<group>"; };
 		79BA5BC127FAE465004886AB /* LEDBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LEDBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79D5851727FC18D900E0372D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				79BA5BA727FAE465004886AB /* Assets.xcassets */,
 				79BA5BA927FAE465004886AB /* LaunchScreen.storyboard */,
 				79BA5BAC27FAE465004886AB /* Info.plist */,
+				79D5851727FC18D900E0372D /* SettingViewController.swift */,
 			);
 			path = LEDBoard;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				79BA5BA327FAE463004886AB /* ViewController.swift in Sources */,
 				79BA5B9F27FAE463004886AB /* AppDelegate.swift in Sources */,
 				79BA5BA127FAE463004886AB /* SceneDelegate.swift in Sources */,
+				79D5851827FC18D900E0372D /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
