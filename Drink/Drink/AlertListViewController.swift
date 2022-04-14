@@ -46,18 +46,18 @@ extension AlertListViewController{
         }
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AlertListCell", for: <#T##IndexPath#>) as? AlertListCell else {return UITableViewCell()}
-        
-        
-        cell.alertSwitch.isOn = alertList[indexPath.row].isOn
-        cell.timeLabel.text = alertList[indexPath.row].time
-        cell.meridimemLabel.text = alertList[indexPath.row].meridiem
-        
-        return cell
-    
-    
-    }
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        guard let cell = tableView.dequeueReusableCell(withIdentifier: "AlertListCell", for: <#T##IndexPath#>) as? AlertListCell else {return UITableViewCell()}
+//
+//
+//        cell.alertSwitch.isOn = alertList[indexPath.row].isOn
+//        cell.timeLabel.text = alertList[indexPath.row].time
+//        cell.meridimemLabel.text = alertList[indexPath.row].meridiem
+//
+//        return cell
+//
+//
+//    }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80

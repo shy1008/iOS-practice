@@ -16,7 +16,7 @@ class AddAlertViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     @IBAction func SaveButtonTapped(_ sender: UIBarButtonItem) {
-        pickedDate(datePicker.date)
+        pickedDate!(datePicker.date)
         self.dismiss(animated: true, completion: nil)
     }
 }
