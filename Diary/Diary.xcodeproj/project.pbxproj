@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791E23E628090C9D0037DA74 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E23E528090C9D0037DA74 /* Diary.swift */; };
 		794516CE2807D78500B041FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794516CD2807D78500B041FA /* AppDelegate.swift */; };
 		794516D02807D78500B041FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794516CF2807D78500B041FA /* SceneDelegate.swift */; };
 		794516D22807D78500B041FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794516D12807D78500B041FA /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791E23E528090C9D0037DA74 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
 		794516CA2807D78500B041FA /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		794516CD2807D78500B041FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		794516CF2807D78500B041FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				794516E52808151A00B041FA /* StarCell.swift */,
 				794516E7280818D600B041FA /* WriteDiaryViewController.swift */,
 				794516E9280819B400B041FA /* DiaryDetailViewController.swift */,
+				791E23E528090C9D0037DA74 /* Diary.swift */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				794516E62808151A00B041FA /* StarCell.swift in Sources */,
 				794516CE2807D78500B041FA /* AppDelegate.swift in Sources */,
 				794516D02807D78500B041FA /* SceneDelegate.swift in Sources */,
+				791E23E628090C9D0037DA74 /* Diary.swift in Sources */,
 				794516EA280819B400B041FA /* DiaryDetailViewController.swift in Sources */,
 				794516E2280813C900B041FA /* DiaryCell.swift in Sources */,
 				794516E4280813FF00B041FA /* StarViewController.swift in Sources */,
